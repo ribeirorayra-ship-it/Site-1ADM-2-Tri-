@@ -1,14 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-    <h1>Mundo sobre futebol</h1> 
-      <p>Nesse site vou compartilhar tudo sobre o futebol</p> 
-    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu blog</title>
+<style>
+header{
+background-color:#0e045e;
+color: aliceblue;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
+
+main{
+background-color:#dfdfe4;
+color: rgb(11, 2, 54);
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+display: flex;
+}
+
+img{
+width: 80px;
+height: 80px;
+}
+
+.artigo-autor{
+    font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Mundo sobre futebol</h1>
+<p>Nesse site vou compartilhar tudo sobre o futebol</p>
+</header>
+
+<main>
+<img src="imagem-blog.jpeg" alt="Uma jogadora de futebol com uniforme azul e detalhes em laranja chuta no gramado. Em primeiro plano, uma bola de futebol aparece em destaque sobre a grama ensolarada, enquanto a atleta é vista ao fundo completando o movimento do chute em um estádio.">
+<div class="artigo-autor">
+<h2>Meu primeiro post</h2>
+<p>Sejam bem-vindos ao templo da bola! Tudo sobre o mundo do futebol em um só lugar.</p>
+<p class="artigo-autor">Por: Rayra</p>
+<button>🔥 <span>0</span></button>
+</div>
+</main>
+
 </body>
+
+<script>
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", botaoClicado);
+   
+    function botaoClicado() {
+        console.log("fui clicado";
+        let texto = botao.querySelector("spam");
+        texto.textContent++;
+    }
+   
+</script>
 </html>
+
+
+
+
+
